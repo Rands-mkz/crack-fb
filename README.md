@@ -26,5 +26,6 @@ cd crack-fb
 
 git pull
 
-python file.py
+python crack-fb.py
 
+#(⁠个⁠_⁠个⁠) (⁠个⁠_⁠个⁠)

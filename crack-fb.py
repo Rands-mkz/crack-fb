@@ -34,48 +34,33 @@ for xd in range(10000):
     a='Mozilla/5.0 (Linux; Android'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='Dragon Touch M10X Build/KOT49H)'
+    d='Nexus 7'
     e=random.randrange(100, 9999)
-    f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0'
+    f='Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
     j=random.randrange(1, 4)
-    k='Safari/537.36 (Seluler; afma-sdk-a-v221908999.213806000.1 )'
+    k='Safari/535.19'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
 
-    aa='Mozilla/5.0 (Linux; Android'
+    aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c='TECNO BC2c'
+    c='en-gb; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='Build/QP1A.190711.020; en-ng) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    g='Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Mobile Safari/537.36 Puffin/8.4.1.42173AP'
+    l='Mobile Safari/534.30'
     uaku=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen2.append(uaku)
     
-    
-    aa='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['6','7','8','9','10','11','12'])
-    c=' en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
     
     aa='Mozilla/5.0 (Symbian/3; Series60/'
     b=random.choice(['6','7','8','9','10','11','12'])
@@ -89,6 +74,21 @@ for xd in range(10000):
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
     l='Mobile Safari/535.1'
+    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(uaku2)
+    
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c=' en-us; Droid'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/533.1'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
@@ -487,9 +487,9 @@ def crack_file():
 
 def setting():
 	print('')
-	print(f'{P}01. join id{M}  10000=10005')
-	print(f'{P}02. join id {H} 10005=10008')
-	print(f'{P}03. join id {H} random ids')
+	print(f'{P}01. join id{M}  OLD=NEW')
+	print(f'{P}02. join id {H} NEW=OLD')
+	print(f'{P}03. join id {H} RANDOM ID')
 	print('')
 	hu = input(f'{P}({H}+{P}) ADD ID CRAK : ')
 	if hu in ['1','01']:
@@ -515,7 +515,7 @@ def setting():
 		print('')
 		
 	print('')
-	print(f'{P}1.join metode {B}m.facebook.com{H}(disarankan)\n{P}2.join metode {B}free.facebook.com\n{P}3.join metode {B}mbasic.facebook')
+	print(f'{P}1.join metode {B}m.facebook.com{H}(disarankan)\n{P}2.join metode {B}free.facebook.com{H}(Kartu Free Fb)\n{P}3.join metode {B}mbasic.facebook')
 	print('')
 	hc = input(f'{P}({H}+{P}) ADD METODE : ')
 	wel='# ADD PASWORD MANUAL? y/t'
@@ -956,9 +956,9 @@ def scarpping_ua():
         if response.status_code == 200:
             uascrap.append(response.json()['ua'])
         else:
-            uascrap.append("Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36")
+            uascrap.append("BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331 UNTRUSTED/1.0 3gpp-gba")
     except requests.exceptions.ConnectionError:
-        uascrap.append("Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36")
+        uascrap.append("BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331 UNTRUSTED/1.0 3gpp-gba")
 if __name__=='__main__':
 	try:os.system('git pull')
 	except:pass

@@ -31,33 +31,33 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android'
+    a='Mozilla/5.0 (Linux; Android 4.4.2;'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='Nexus 7'
+    d='Dragon Touch M10X'
     e=random.randrange(100, 9999)
-    f='Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/'
+    f='Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
     j=random.randrange(1, 4)
-    k='Safari/535.19'
+    k='Safari/537.36'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
 
-    aa='Mozilla/5.0 (Linux; U; Android'
+    aa='Mozilla/5.0 (Linux; Android 9;'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c='en-gb; GT-'
+    c='TONE e20)'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Mobile Safari/534.30'
+    l='Mobile Safari/537.36'
     uaku=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen2.append(uaku)
     

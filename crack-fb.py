@@ -31,34 +31,35 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 8.0.0;'
+    a='Mozilla/5.0 (Symbian/3; Series60/'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='704HW'
+    d='Nokia'
     e=random.randrange(100, 9999)
-    f='Build/HUAWEI704HW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
     j=random.randrange(1, 4)
-    k='Mobile Safari/537.36'
+    k='Mobile Safari/535.1'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
+
     aa='Mozilla/5.0 (Linux; Android 6.0.1;'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c='SC-01G)'
+    c='Nexus 5X Build/MMB29P)'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.1 Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.99'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
     l='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)    
+    ugen.append(uaku2)
     
 def uaku():
 	try:

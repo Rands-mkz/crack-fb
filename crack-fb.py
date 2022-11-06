@@ -31,12 +31,12 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 10;'
+    a='Mozilla/5.0 (Linux; Android 8.0.0;'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='POCO F1'
+    d=random.choice(['704HW Build/HUAWEI704HW; wv)'])
     e=random.randrange(100, 9999)
-    f='Build/QKQ1.190828.002 ) AppleWebKit/537.36 (KHTML, like Gecko) JioBrowser/1.4.7 Chrome/'
+    f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
@@ -47,7 +47,7 @@ for xd in range(10000):
 
     aa='Mozilla/5.0 (Linux; Android 6.0.1;'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c=' SC-01G)'
+    c=random.choice(['SC-01G)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])

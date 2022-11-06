@@ -633,10 +633,11 @@ def crackfree(idf,pwv):
 	loop+=1
 def crackmbasic(idf,pwv):
 	global loop,ok,cp
-	bi = random.choice([u,k,kk,b,h,hh])
+	bi = random.choice(['\33[m'])
 	pers = loop*100/len(id2)
 	fff = '%'
-	print('\r[deep_white]{(loop)}/{len(id)}[/] [green]OK[/]:[green]{(ok)} [/]=[yellow] CP[/]:[yellow]{(cp)}')
+	prog.update(des,description=f'\r[deep_white][green]{(loop)}/{len(id)}[/] [white]OK[/]=[green]{(ok)} [/]-[white] CP[/]=[yellow]{(cp)}')
+	prog.advance(des)
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()

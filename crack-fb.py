@@ -31,12 +31,12 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 5.1.1;'
+    a='Mozilla/5.0 (Linux; Android 10;'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='SAMSUNG'
+    d=' POCO F1'
     e=random.randrange(100, 9999)
-    f='SM-A800F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36'
+    f='Build/QKQ1.190828.002 ) AppleWebKit/537.36 (KHTML, like Gecko) JioBrowser/1.4.7 Chrome/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
@@ -51,7 +51,7 @@ for xd in range(10000):
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.1 Chrome/75.0.3770.143 Mobile Safari/537.36'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.1 Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -483,7 +483,7 @@ def setting():
 		print('')
 		
 	print('')
-	print(f'{P}1.join metode {B}Touch.facebook.com\n{P}2.join metode {B}Free.facebook.com\n{P}3.join metode {B}M.facebook{H}(disarankan)')
+	print(f'{P}1.join metode {B}Touch.facebook.com{H}(Recommended)\n{P}2.join metode {B}Free.facebook.com\n{P}3.join metode {B}M.facebook{H}(disarankan)')
 	print('')
 	hc = input(f'{P}({H}+{P}) ADD METODE : ')
 	wel='# ADD PASWORD MANUAL? y/t'

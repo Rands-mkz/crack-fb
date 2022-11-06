@@ -31,13 +31,28 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 6.0.1;'
+    a='Mozilla/5.0 (X11; U; Linux i686;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice([' SC-01G)'])
+    c=random.choice(['pt-BR; rv:1.9.0.15)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.1 Chrome/'
+    g='Gecko/2009102815 Ubuntu/9.04 (jaunty) Firefox/3.0.15'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Firefox/3.0.15'
+    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+    ugen2.append(uaku)
+    
+    a='Mozilla/5.0 (Linux; Android 8.1.0;'
+    b=random.choice(['7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['Nexus 5X)'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(80,103)
     i='0'
     j=random.randrange(4200,4900)
@@ -45,34 +60,19 @@ for xd in range(10000):
     l='Mobile Safari/537.36'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
-    
-    a='Mozilla/5.0'
-    b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['zh-cn; iPhone; CPU iPhone OS 14_0 like Mac OS X/'])
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='KOT49H)AppleWebKit/605.1.15 (KHTML, like Gecko)'
-    h=random.randrange(80,103)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile/15E148 Instagram 147.0.0.30.121 (iPhone11,6; iOS 14_0; en_US; en-US; scale=3.00;'
-    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-    ugen2.append(uaku)
 
 
-    aa='Mozilla/5.0 (Linux; Android'
+    aa='Mozilla/5.0 (Linux; Android 7.1.1;'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='12; SM-S906E)'
+    d='CPH1729)'
     e=random.randrange(100, 9999)
-    f='AppleWebKit/537.36 (KHTML, like Gecko)'
+    f='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
     j=random.randrange(1, 4)
-    k='Version 4.0 Chrome/90.0.4430.232 Whale/1.0.0.0 Crosswalk/26.90.3.26 Mobile Safari/537.36 NAVER(inapp; search; 1010; 11.15.2'
+    k='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     

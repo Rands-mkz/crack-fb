@@ -34,9 +34,9 @@ for xd in range(10000):
     a='Mozilla/5.0 (Linux; Android 8.0.0;'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='704HW Build/HUAWEI704HW; wv)'
+    d='704HW'
     e=random.randrange(100, 9999)
-    f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    f='Build/HUAWEI704HW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
     g=random.randrange(1, 9)
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)

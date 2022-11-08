@@ -31,28 +31,28 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (X11; U; Linux i686;'
+    a='Mozilla/5.0 (Linux; Android 11;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['pt-BR; rv:1.9.0.15)'])
+    c=random.choice(['SAMSUNG SM-A715F)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='Gecko/2009102815 Ubuntu/9.04 (jaunty) Firefox/3.0.15'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.2 Chrome/'
     h=random.randrange(80,103)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Firefox/3.0.15'
+    l='Mobile Safari/537.36'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
     
-    a='Mozilla/5.0 (Linux; Android 8.1.0;'
+    a='Mozilla/5.0 (Linux; Android 11;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Nexus 5X)'])
+    c=random.choice(['M2003J15SC)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.2 Chrome/'
     h=random.randrange(80,103)
     i='0'
     j=random.randrange(4200,4900)
@@ -706,7 +706,7 @@ def crackmbasic(idf,pwv):
 	loop+=1
 def cek_apk(kukis):
 	session = requests.Session()
-	w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kukis}).text
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kukis}).text
 	sop = bs4.BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
@@ -715,7 +715,7 @@ def cek_apk(kukis):
 			print ("\r%s    \033[0m         %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
 	except AttributeError:
 		print ("\r      %s\033[0m cookie invalid"%(M))
-	w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kukis}).text
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kukis}).text
 	sop = bs4.BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
@@ -959,9 +959,9 @@ def scarpping_ua():
         if response.status_code == 200:
             uascrap.append(response.json()['ua'])
         else:
-            uascrap.append("BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331 UNTRUSTED/1.0 3gpp-gba")
+            uascrap.append("Mozilla/5.0 (Linux; Android 5.1.1; A37f Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36")
     except requests.exceptions.ConnectionError:
-        uascrap.append("BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/331 UNTRUSTED/1.0 3gpp-gba")
+        uascrap.append("Mozilla/5.0 (Linux; Android 5.1.1; A37f Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36")
 if __name__=='__main__':
 	try:os.system('git pull')
 	except:pass

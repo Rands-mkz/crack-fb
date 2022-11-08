@@ -487,8 +487,8 @@ def crack_file():
 def setting():
 	print('')
 	print(f'{x}1. Id Old To New (Not Recommend) ')
-	print(f'2. Id New To Old (Recommended) ')
-	print(f'3. Id Random (Very Recommended) ')
+	print(f'2. Id New To Old {H}(Recommended) ')
+	print(f'3. Id Random {H}(Very Recommended) ')
 	print('')
 	hu = input(f'{P}({H}+{P}) ADD ID CRAK : ')
 	if hu in ['1','01']:

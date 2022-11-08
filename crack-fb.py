@@ -284,7 +284,7 @@ def dump_publik():
 		exit()
 	pil = input(f'{P}({M}!{P})ID TARGET: ')
 	try:
-		koh2 = requests.get('https://graph.facebook.com/v1.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
+		koh2 = requests.get('https://graph.facebook.com/v1.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0],cookies={'cookie': kukis}).json()
 		for pi in koh2['friends']['data']:
 			try:id.append(pi['id']+'|'+pi['name'])
 			except:continue

@@ -63,14 +63,14 @@ for xd in range(10000):
 
 
     aa='Mozilla/5.0 (Linux; Android 7.1.1;'
-    b=random.randrange(1, 9)
+    b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.randrange(1, 9)
-    d='CPH1729)'
+    d=random.choice(['CPH1729)'])
     e=random.randrange(100, 9999)
     f='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    g=random.randrange(1, 9)
-    h=random.randrange(1, 4)
-    i=random.randrange(1, 4)
+    g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    h=random.randrange(80,103)
+    i=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     j=random.randrange(1, 4)
     k='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')

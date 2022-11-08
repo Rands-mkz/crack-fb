@@ -42,6 +42,7 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k='Mobile Safari/537.36'
+    l='0'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
     
@@ -56,6 +57,7 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k='Mobile Safari/537.36'
+    l='0'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
@@ -63,7 +65,7 @@ for xd in range(10000):
     aa='Mozilla/5.0 (Linux; Android 7.1.1;'
     b=random.randrange(1, 9)
     c=random.randrange(1, 9)
-    d='CPH1729)'
+    d=random.choice(['CPH1729)'])
     e=random.randrange(100, 9999)
     f='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     g=random.randrange(1, 9)

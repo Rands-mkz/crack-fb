@@ -31,62 +31,33 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-    a='Mozilla/5.0 (Linux; Android 11;'
+    a='Mozilla/5.0 (Linux; Android 12;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['SAMSUNG SM-A715F)'])
+    c=random.choice(['M2007J3SG)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.2 Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(80,103)
     i='0'
     j=random.randrange(4200,4900)
-    k='Mobile Safari/537.36'
-    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-    ugen2.append(uaku)
-    
-    a='Mozilla/5.0 (Linux; Android 11;'
-    b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['M2003J15SC)'])
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.2 Chrome/'
-    h=random.randrange(80,103)
-    i='0'
-    j=random.randrange(4200,4900)
-    k='Mobile Safari/537.36'
+    k='Mobile Safari/537.36 OPR/71.2.3718.67195'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
 
-    aa='Mozilla/5.0 (Linux; Android 7.1.1;'
-    b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.randrange(1, 9)
-    d=random.choice(['CPH1729)'])
-    e=random.randrange(100, 9999)
-    f='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    g=random.randrange(1, 999)
-    h=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    i=random.randrange(1, 4)
-    j=random.randrange(80,103)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
-    
-    aa='Mozilla/5.0 (Linux; U; Android 7.0; es-us;'
-    b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Redmi Note 4 Build/NRD90M)'])
+    aa='Mozilla/5.0 (Linux; U; Android 7.0;'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c=random.choice(['es-us; Redmi Note 4 Build/NRD90M)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko)'
-    h=random.randrange(80,103)
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.1.2'
+    l='Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.1.2'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
